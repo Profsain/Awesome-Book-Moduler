@@ -6,6 +6,6 @@ const isEmpty = (bookobj) => {
   } else {
     emptyList.style.display = 'none';
   }
-}
+};
 
-export default isEmpty
+export default isEmpty;

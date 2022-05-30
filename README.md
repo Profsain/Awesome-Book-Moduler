@@ -12,12 +12,12 @@
 
 ## Live Demo (if available)
 
-[Live Demo Link](https://kamba56.github.io/Awesome-books/)
+[Live Demo Link](#)
 
 ## Getting Started
 To get a local copy up and running follow these simple example steps.
 
-Go to the [repository page](https://github.com/Kamba56/Awesome-books).
+Go to the [repository page](https://github.com/Profsain/Awesome-Book-Moduler).
 Press the "Code" button and copy the link.
 Clone it using git command git clone <url>.
 

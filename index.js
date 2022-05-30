@@ -1,7 +1,7 @@
-import BooksTemplate from "./modules/booksclassmodule.js";
-import generateBooks from "./modules/generatebooksmodules.js";
-import isEmpty from "./modules/isemptycheckmodule.js";
-import setDateTime from "./modules/datetimemodule.js";
+import BooksTemplate from './modules/booksclassmodule.js';
+import generateBooks from './modules/generatebooksmodules.js';
+import isEmpty from './modules/isemptycheckmodule.js';
+import setDateTime from './modules/datetimemodule.js';
 
 const bookSection = document.querySelector('.book-section');
 const form = document.querySelector('#add-form');
@@ -11,6 +11,8 @@ const contactSection = document.querySelector('#contact');
 const formLink = document.querySelector('#form-link');
 const bookLink = document.querySelector('#book-link');
 const contactLink = document.querySelector('#contact-link');
+const title = document.querySelector('#title');
+const author = document.querySelector('#author');
 
 const bookObj = new BooksTemplate();
 
@@ -66,4 +68,4 @@ contactLink.addEventListener('click', (e) => {
 });
 
 // update dateTime is 1 minute interval
-setInterval(setDateTime, 1000)
+setInterval(setDateTime, 1000);
