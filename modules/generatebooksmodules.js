@@ -8,6 +8,6 @@ const generateBooks = ({ author, title, id }) => {
   <button id="${id}" class="remove-button" type="button")">Remove</button>  
   `;
   bookSection.appendChild(bookContainer);
-}
+};
 
 export default generateBooks;
